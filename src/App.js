@@ -15,14 +15,16 @@ import Stylesheet from './components/stylesheet'
 import Inline from './components/inline'
 import './components/appStyles.css'
 import styles from './components/appStyles.module.css'
+import Form from './components/form'
 
 function App() {
   return (
     <div className="App">
+      <Form></Form>
       {/* <Stylesheet primary={true}></Stylesheet> */}
-      <Inline></Inline>
+      {/* <Inline></Inline>
       <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      <h1 className={styles.success}>Success</h1> */}
       {/* <NameList></NameList> */}
       {/* <UserGreeting></UserGreeting> */}
       {/* <ParentComponent></ParentComponent> */}
